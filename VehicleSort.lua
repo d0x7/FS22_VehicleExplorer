@@ -1644,7 +1644,7 @@ function VehicleSort:getInfoTexts(realId)
 			doSpacing = true;
 		end
 		
-		if (veh.ad ~= nil and veh.ad.stateModule.active) then
+		if (veh.ad ~= nil and veh.ad.stateModule ~= nil and g_currentMission.vehicles[realId].ad.stateModule.active) then
 			if veh.ad.stateModule.firstMarker ~= nil and veh.ad.stateModule.mode ~= 1 then
 				local target1 = "";
 				local target2 = "";
