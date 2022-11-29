@@ -10,7 +10,7 @@ VehicleSort.eventName = {};
 --VehicleSort.ModDirectory = g_currentModDirectory
 VehicleSort.ModName = "FS22_VehicleExplorer"
 VehicleSort.ModDirectory = g_modManager.nameToMod.FS22_VehicleExplorer.modDir
-VehicleSort.Version = "0.2.0.4";
+VehicleSort.Version = "0.2.1.0";
 
 
 VehicleSort.debug = fileExists(VehicleSort.ModDirectory ..'debug');

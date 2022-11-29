@@ -9,7 +9,7 @@ VehicleStatus = {};
 --VehicleStatus.ModDirectory = g_currentModDirectory
 VehicleStatus.ModName = "FS22_VehicleExplorer";
 VehicleStatus.ModDirectory = g_modManager.nameToMod.FS22_VehicleExplorer.modDir
-VehicleStatus.Version = "0.2.0.1";
+VehicleStatus.Version = "0.2.1.0";
 
 
 VehicleStatus.debug = fileExists(VehicleStatus.ModDirectory ..'debug');
